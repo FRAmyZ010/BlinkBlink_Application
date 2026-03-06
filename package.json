@@ -2,16 +2,19 @@
   "name": "blinkblink",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
   "scripts": {
-    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FRAmyZ010/BlinkBlink_Application.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "devDependencies": {
-    "electron": "^40.7.0"
-  }
+  "bugs": {
+    "url": "https://github.com/FRAmyZ010/BlinkBlink_Application/issues"
+  },
+  "homepage": "https://github.com/FRAmyZ010/BlinkBlink_Application#readme"
 }

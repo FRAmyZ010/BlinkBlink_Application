@@ -1,0 +1,119 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: #2C2C2C;
+    color: #F3F4F4;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dayoftheweek {
+    color: #FFD150;
+}
+้h1, h2, body{
+    margin: 0;
+}
+
+.btn{
+    cursor: pointer;
+    transition: 0.4s
+}
+.btn:hover{
+    background-color: #a3103f;
+    color: white;
+    transform: scale(1.1);
+}
+/* Ipad Style */
+@media (min-width:1024px){
+    #dayoftheweek {
+        font-size: 7vw;
+        margin-bottom: -15px;
+    }
+
+    #date {
+        font-size: 2vw;
+        margin-bottom: -15px;
+    }
+
+    #time {
+        font-size:9vw;
+    }
+
+    .btn{
+        font-size: 2vw;
+        font-weight: bold;
+        padding: 15px 20px;
+        background-color: #DE1A58;
+        color: white;
+        border-radius: 30px;
+        border: none;
+        margin: 30px;
+    }
+}
+
+/* Ipad Style */
+@media (min-width:1280px){
+    #dayoftheweek {
+        font-size: 7vw;
+        margin-bottom: -15px;
+    }
+
+    #date {
+        font-size: 2vw;
+        margin-bottom: -15px;
+    }
+
+    #time {
+        font-size:9vw;
+    }
+
+    .btn{
+        font-size: 2vw;
+        font-weight: bold;
+        padding: 30px 25px;
+        background-color: #DE1A58;
+        color: white;
+        border-radius: 30px;
+        border: none;
+        margin: 30px;
+    }
+}
+
+/* Mobile Styles */
+@media (min-width:600px){
+    #dayoftheweek {
+        font-size: 7vw;
+        margin-bottom: -5px;
+    }
+
+    #date {
+        font-size: 2vw;
+        margin-bottom: -5px;
+    }
+
+    #time {
+        font-size:9vw;
+    }
+
+    .btn{
+        font-size: 2vw;
+        font-weight: bold;
+        padding: 15px 20px;
+        background-color: #DE1A58;
+        color: white;
+        border-radius: 30px;
+        border: none;
+        margin: 30px;
+    }
+}
