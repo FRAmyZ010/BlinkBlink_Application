@@ -1,24 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BlinkBlink</title>
-    <link rel="stylesheet" href="\public\css\index.css">
-</head>
-<body>
-    <script src="\public\js\clock.js"></script>
+    <link rel="stylesheet" href="\public\css\index.css" />
+  </head>
+  <body>
+   
 
-    <div class="container">
-        <div class="text-center">
-           <h1 id="dayoftheweek" class="dayoftheweek"></h1>
-            <h1 id="date" class="date"></h1>
-            <h2 id="time" class="time"></h2> 
-        </div>
-        <div id="btn-sec" class="center">
-            <button class="btn">START FOCUS</button>
-        </div>
-        
+    <div class="container text-center">
+      <div>
+        <h1 class="logo">BlinkBlink</h1>
+      </div>
+
+      <div class="header">
+        <h1 id="dayoftheweek" class="dayoftheweek"></h1>
+        <h1 id="date" class="date"></h1>
+        <h2 id="time" class="time"></h2>
+      </div>
+
+
+
+      <div id="btn-sec" class="center">
+        <button class="btn" id="start-btn" onclick="focus()">FOCUS</button>
+      </div>
+
+
     </div>
-</body>
+     <script src="\public\js\clock.js"></script>
+  </body>
 </html>

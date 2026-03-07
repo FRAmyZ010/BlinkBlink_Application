@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 
     background-color: #2C2C2C;
     color: #F3F4F4;
@@ -27,13 +27,43 @@ body{
 
 .btn{
     cursor: pointer;
-    transition: 0.4s
+    transition: 0.4s;
+    font-size: 2vw;
+        font-weight: bold;
+        padding: 15px 20px;
+        background-color: #DE1A58;
+        color: white;
+        border-radius: 30px;
+        border: none;
+        margin: 30px;
+    
 }
 .btn:hover{
     background-color: #a3103f;
     color: white;
     transform: scale(1.1);
+    
 }
+
+.logo{
+    color: #DE1A58;
+    font-size: 50px;
+}
+
+.header{
+    transition: transform 2s ease, font-size 0.5s ease;
+}
+
+.header-minimized {
+    transform: scale(0.2);
+    transform-origin:top center;
+    margin-bottom: -50px;
+    margin-top: -80px;
+}
+
+
+
+
 /* Ipad Style */
 @media (min-width:1024px){
     #dayoftheweek {

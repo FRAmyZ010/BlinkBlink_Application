@@ -23,7 +23,11 @@ const dayoftheweek = [
         "December"
     ];
 
+    
+
+
 function clock(){
+
     const clock = new Date();
 
     let day = dayoftheweek[clock.getDay()];
@@ -56,3 +60,22 @@ function clock(){
 }
 
 setInterval(clock, 1000);
+
+clock();
+
+const stopBtn = document.getElementById("start-btn");
+const header = document.getElementsByClassName("header");
+
+var alarmSound = new Audio("../public/src/alarm1.mp3");
+
+stopBtn.addEventListener('click', function(){
+    console.log("Focus button clicked");
+    header[0].classList.add("header-minimized"); 
+    stopBtn.style.display = "none";
+    setInterval(()=>{
+        alarmSound.play();
+    },1000);
+});
+
+
+
