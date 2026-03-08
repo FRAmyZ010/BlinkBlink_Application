@@ -25,6 +25,14 @@ body{
     margin: 0;
 }
 
+.logo-container{
+    position: fixed;
+    align-items: center;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .btn{
     cursor: pointer;
     transition: 0.4s;
@@ -50,15 +58,18 @@ body{
     font-size: 50px;
 }
 
+
+
+
 .header{
     transition: transform 2s ease, font-size 0.5s ease;
 }
 
 .header-minimized {
-    transform: scale(0.2);
+    transform: scale(0.3);
     transform-origin:top center;
     margin-bottom: -50px;
-    margin-top: -80px;
+    margin-top: -250px;
 }
 
 
