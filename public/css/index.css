@@ -57,7 +57,7 @@ body{
     transform: scale(0.3);
     transform-origin:top center;
     margin-bottom: -50px;
-    margin-top: -9vw;
+    margin-top: -1000px;
 }
 
 
@@ -82,6 +82,19 @@ body{
     
 }
 
+
+
+/* Timer Styles */
+.timer-display{
+    font-size: 3vw;
+    color: #DE1A58;
+   margin: 0;
+}
+
+.show-timer{
+    display: block;
+    margin-top: -13vw;
+}
 
 
 
