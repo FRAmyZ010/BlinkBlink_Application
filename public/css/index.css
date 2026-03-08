@@ -85,6 +85,30 @@ body{
 
 
 /* Timer Styles */
+.btn-minus, .btn-plus{
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 2vw;
+        font-weight: bold;
+        padding: 15px 20px;
+        background-color: #DE1A58;
+        color: white;
+        border-radius: 30px;
+        border: none;
+
+    
+}
+
+
+
+.timer{
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
 .timer-display{
     font-size: 3vw;
     color: #DE1A58;
@@ -92,7 +116,7 @@ body{
 }
 
 .show-timer{
-    display: block;
+    display: flex;
     margin-top: -13vw;
 }
 
