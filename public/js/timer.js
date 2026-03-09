@@ -9,6 +9,10 @@ const timerBtn = document.getElementsByClassName("timer-btn"); // ดึงป�
 
 var alarmSound = new Audio("../public/src/alarm1.mp3");
 
+function adjustTime(){
+    
+}
+
 function timer() {
     if (time < 0) return;
 
