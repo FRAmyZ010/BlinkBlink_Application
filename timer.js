@@ -15,7 +15,7 @@ function subtractionTime(amount) {
 }
 
 
-const alarm = new Audio("./public/src/alarm1.mp3");
+const alarm = new Audio("alarm1.mp3");
 
 function updateTimer() {
 
